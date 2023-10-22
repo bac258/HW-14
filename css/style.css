@@ -1,0 +1,152 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 800px;
+}
+/* WRAPPER START */
+.cart{
+    display: flex;
+}
+.cart .cnt{
+    margin-left: 30px;
+}
+.cart .cnt p{
+    font-size: 30px;
+    margin-top: 20px;  
+}
+.cart .cnt h4{
+    color: rgb(240, 122, 25);
+    font-size: 25px;
+    padding: 20px 0 100px;
+    
+}
+.cart .decrement{
+    height: 50px;
+    width: 50px;
+}
+.cart .decrement{
+    height: 50px;
+    width: 50px;
+    border: none;
+  
+
+}
+.cart .result{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+.cart .increment{
+    height: 50px;
+    width: 50px;
+    border: none;   
+}
+/* WRAPPER END */
+/* SLIDER START */
+.slider .output{
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.slider .rangeSlider{
+    width: 540px;
+    height: 50px;
+    display: block;
+    background-color: #de0b0b;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.bg{
+    background-color: antiquewhite;
+}
+/*  SLIDER ENDS */
+/* SLIDER ST */
+#colorize{
+    background-color: rgb(122, 9, 116);
+}
+#colorize .randomBtn{
+    font-size: 40px;
+    padding: 15px 25px;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: #fff;
+}
+/* SLIDER END */
+/* login st */
+    .login .formInput .userName{
+        height: 60px;
+        width: 420px;
+        font-size: 25px;
+      margin-bottom: 30px;
+      
+    }
+    .login .formInput .userPassword{
+        height: 60px;
+        width: 420px;
+        font-size: 25px;
+       
+    }
+    .login .formInput h6{
+        font-size: 40px;
+    }
+    .login .formInput h2{
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+    .login .formInput .passwordBtn{
+        height: 70px;
+        width: 80px;
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+       
+    }
+    .login .formInput .login{
+        display: block;
+        height: 60px;
+        width: 420px;
+        font-size: 25px;
+      margin-top: 60px;
+      background-color: rgb(37, 37, 235);
+      color: #fff;
+    }
+    .login .formInput .forgat{
+        display: block;
+        height: 60px;
+        width: 420px;
+        font-size: 20px;
+      margin-top: 40px;
+      outline: none;
+      border: none;
+      text-align: center;
+      
+    }
+    .login .formInput .forgat a{
+        text-decoration: none;
+    }
+/* login ends */
